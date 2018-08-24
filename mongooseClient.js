@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // En una variable "url" pasamos la dirección de nuestra base de datos de mLab.
 // En esta direccion cambiamos lo que se encuentra entre "<>" por nuestro 
 // nombre de usuario de la base de datos de mLab y su contraseña
-let url = 'mongodb://Masavi:abc123@ds018258.mlab.com:18258/papeleria';
+let url = "mongodb://masavi:abc123@ds020938.mlab.com:20938/lachona";
 // Usando el metodo "connect" solo debemos pasarle la url que especificamos arriba
 mongoose.connect(url, {
     useNewUrlParser: true //OPCIONALMENTE podemos pasarle como segundo parámetro a nuestro método connect un objeto "{}"

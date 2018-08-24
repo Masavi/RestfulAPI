@@ -28,7 +28,7 @@ const { Articulo, Ticket } = require('./mongooseClient');
     un "oki doki" como respuesta
 */
 app.get( '/', ( req, res) => {
-    res.send('oki doki')
+    res.send('Supermercado La Chona')
 });
 
 /* Para probar nuestra base de datos, haremos un CRUD de 
