@@ -1,3 +1,5 @@
+//const PUERTO = process.env.port || 5000;
+
 // Guardamos en constantes el código de los módulos que emplearemos 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -213,6 +215,4 @@ app.get('/api/tickets/calcular/:id/', (req, res) => {
    Sin este metodo nuestro servidor jamás podrá iniciar
 */
 
-const PUERTO = process.env.port || 3000;
-
-app.listen(PUERTO ,()=>console.log('servidor corriendo en puerto 3000'))
+app.listen(process.env.PORT || 5000)
